@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hello</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main">
+        <div class="nav">
+            <h1>Aaditya Bhatt.</h1>
+            <div class="nav-part2">
+                <li><a href="#main">Home</a></li>
+                <li><a href="#about_me">About me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#drawing">My Arts</a></li>
+                <li><a href="#contact">Contact me</a></li>
+                <i onclick=shownavpart1() class="ri-menu-line"></i>
+            </div>
+            <!-- for  mobile view -->
+
+            <div class="navpart1">
+                <ul>
+                <li onclick=hidenavbar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li onclick=hidenavbar()><a href="#main">Home</a></li>
+                <li onclick=hidenavbar()><a href="#about_me">About me</a></li>
+                <li onclick=hidenavbar()><a href="#projects">Projects</a></li>
+                <li onclick=hidenavbar()><a href="#drawing">My Arts</a></li>
+                <li onclick=hidenavbar()><a href="#contact">Contact me</a></li>
+            </div>
+        </ul>
+             <!-- this is last line for mobile view-->
+        </div>
+        <div class="content">
+            <div class="left">
+                <h1>Hi, <br> I'm <span id="element"></span> </h1>
+                <p>Click on contact me For more</p>
+                <a href="#contact"><button id="homebtn">Contact me</button></a>
+            </div>
+            <div class="right">
+                <img src="img/home.jpg" id="homeimg" alt="">
+            </div>
+        </div>
+        <hr id="lines"><br>
+        <section id="about_me">
+
+            <div id="leafdiv">
+                <h1 id="leaf">About me</h1>
+            </div>
+
+            <div class="aboutme">
+                <div class="discription">
+
+                    <div class="dis">
+                        <h1>Hi,</h1>
+                        <p>I'm Aaditya Prasad Bhatt from Nepal, currently pursuing Software Engineering at Dev Bhoomi
+                            Uttarakhand
+                            University. My enthusiasm for technology drives my dedication to coding and programming,
+                            where I
+                            find
+                            fulfillment in creating efficient and innovative solutions. Beyond the technical realm, I
+                            enjoy
+                            expressing my creativity through portrait sketching. Being an introvert allows me to focus
+                            deeply on
+                            my
+                            work, enabling me to approach challenges with careful consideration and determination.</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="img/info.jpg" id="infoimg" alt="My image">
+                </div>
+            </div>
+        </section>
+        <hr id="lines">
+        <section id="projects">
+            <div class="projectimg">
+                <img src="img/noteswift.png" id="noteswift" alt="NoteSwift">
+            </div>
+            <div class="projectdiscription">
+                <div class="projectdis">
+                    <p> <span id="elements">NoteSwift</span> is an educational platform designed to streamline learning
+                        through both a website and a
+                        mobile app. It offers students access to comprehensive notes, live online classes, and a
+                        personalized question-solving service. Whether students need to review key concepts or get
+                        real-time
+                        help with their academic queries, NoteSwift provides a convenient and accessible solution for
+                        enhanced learning.
+                    </p>
+                    <a href="https://noteswift.in/#google_vignette"><button id="noteswiftbtn">NoteSwift</button></a>
+                </div>
+            </div>
+        </section>
+        <hr id="lines">
+        <section id="drawing">
+            <div class="drawingbox">
+                <div class="img1"><img src="img/img2.jpg" id="bhuwan" alt="">
+                    <h1>Bhuwan Bam</h1>
+                    <p>Portrait Art works</p>
+                </div>
+                <div class="img2"> <img src="img/img3.jpg" id="darsan" alt="">
+                    <h1>Darsan Rawal</h1>
+                    <p>Portrait Art works</p>
+                </div>
+                <div class="img3"> <img src="img/img4.jpg" id="oldman" alt="">
+                    <h1>Old Man</h1>
+                    <p>Portrait Art works</p>
+                </div>
+            </div>
+            <a href="https://www.instagram.com/aaditya.bhatt.1650/"><button id="drawingbtn">See More</button></a>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <div class="socialmedia">
+                    <div class="iconss">
+                        <h2>Contact Here</h2>
+                        <p>+91-9119078536</p>
+                        <p>+977-9806450817</p>
+                        <a
+                            href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=lqrsljcHjWPNBkbNbQLBMRqhKHSGtthxhzfBxHBsphFxHbbjDnKgQnzPwNkdkpCtJSttmxkhJJcSCrGTp" id="emailme">
+                            <p>bhattaaditya976@gmail.com</p>
+                        </a>
+                        <a href="https://www.facebook.com/aaditya.bhatt.1650"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/aaditya.bhatt.1650/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://x.com/Aaditya_Bhatt51"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/aaditya-bhatt-692b162a3/"><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="message">
+                    <form action="https://api.web3forms.com/submit" method="POST" id="myForm">
+                        <input type="hidden" name="access_key" value="396f040d-7bb9-4c4f-91b8-3a148b2848eb">
+                    <div class="messagebox">
+                            <input type="text" name="message" placeholder="enter your name" id="area">
+                            <input type="email" name="message" placeholder="xyz@gmail.com" id="email">
+                            <textarea placeholder="enter your message"name="message" id="text"></textarea>
+                            <button id="submit" value="submit">Submit</button>
+                            <button id="clear" onclick="clearForm()" >Clear All</button>
+                    </div>
+                </form>
+                </div>
+            </div>
+        </section>
+        <footer>
+              <div class="footerdiv">
+                <p id="copyright"><a href="">Copyright&#169;</a> Aaditya Bhatt</p>
+              </div>
+        </footer>
+    </div>
+</body>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+        strings: ['Developer.', 'Artist.', 'Student.'],
+        typeSpeed: 50,
+    });
+    function clearForm() {
+        document.getElementById("myForm").reset(); // Resets all form fields
+    }
+</script>
+<script>
+    function shownavpart1(){
+        const navpart1 =  document.querySelector('.navpart1');
+        navpart1.style.display = 'flex';
+    }
+    function hidenavbar(){
+        const navpart1 =  document.querySelector('.navpart1');
+        navpart1.style.display = 'none';
+    }
+    
+</script>
+
+</html>
