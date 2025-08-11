@@ -27,15 +27,19 @@
 
             <div class="navpart1">
                 <ul>
-                <li onclick=hidenavbar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
-                <li onclick=hidenavbar()><a href="#main">Home</a></li>
-                <li onclick=hidenavbar()><a href="#about_me">About me</a></li>
-                <li onclick=hidenavbar()><a href="#projects">Projects</a></li>
-                <li onclick=hidenavbar()><a href="#drawing">My Arts</a></li>
-                <li onclick=hidenavbar()><a href="#contact">Contact me</a></li>
+                    <li onclick=hidenavbar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px"
+                                viewBox="0 -960 960 960" width="26px" fill="#e8eaed">
+                                <path
+                                    d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                            </svg></a></li>
+                    <li onclick=hidenavbar()><a href="#main">Home</a></li>
+                    <li onclick=hidenavbar()><a href="#about_me">About me</a></li>
+                    <li onclick=hidenavbar()><a href="#projects">Projects</a></li>
+                    <li onclick=hidenavbar()><a href="#drawing">My Arts</a></li>
+                    <li onclick=hidenavbar()><a href="#contact">Contact me</a></li>
             </div>
-        </ul>
-             <!-- this is last line for mobile view-->
+            </ul>
+            <!-- this is last line for mobile view-->
         </div>
         <div class="content">
             <div class="left">
@@ -91,7 +95,8 @@
                         personalized question-solving service. Whether students need to review key concepts or get
                         real-time
                         help with their academic queries, NoteSwift provides a convenient and accessible solution for
-                        enhanced learning. <br>Founder:- <span><a style="text-decoration: none;color: rgb(8, 102, 97);" href="https://bikashpandeya.com.np/">Bikash Pandey</a></span>
+                        enhanced learning. <br>Founder:- <span><a style="text-decoration: none;color: rgb(8, 102, 97);"
+                                href="https://bikashpandeya.com.np/">Bikash Pandey</a></span>
                     </p>
                     <a href="https://noteswift.in/#google_vignette"><button id="noteswiftbtn">NoteSwift</button></a>
                 </div>
@@ -122,8 +127,8 @@
                         <h2>Contact Here</h2>
                         <p>+91-9119078536</p>
                         <p>+977-9806450817</p>
-                        <a
-                            href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=lqrsljcHjWPNBkbNbQLBMRqhKHSGtthxhzfBxHBsphFxHbbjDnKgQnzPwNkdkpCtJSttmxkhJJcSCrGTp" id="emailme">
+                        <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=lqrsljcHjWPNBkbNbQLBMRqhKHSGtthxhzfBxHBsphFxHbbjDnKgQnzPwNkdkpCtJSttmxkhJJcSCrGTp"
+                            id="emailme">
                             <p>bhattaaditya976@gmail.com</p>
                         </a>
                         <a href="https://www.facebook.com/aaditya.bhatt.1650"><i class="fab fa-facebook-f"></i></a>
@@ -136,21 +141,37 @@
                 <div class="message">
                     <form action="https://api.web3forms.com/submit" method="POST" id="myForm">
                         <input type="hidden" name="access_key" value="396f040d-7bb9-4c4f-91b8-3a148b2848eb">
-                    <div class="messagebox">
+                        <div class="messagebox">
                             <input type="text" name="message" placeholder="enter your name" id="area">
                             <input type="email" name="message" placeholder="xyz@gmail.com" id="email">
-                            <textarea placeholder="enter your message"name="message" id="text"></textarea>
+                            <textarea placeholder="enter your message" name="message" id="text"></textarea>
                             <button id="submit" value="submit">Submit</button>
-                            <button id="clear" onclick="clearForm()" >Clear All</button>
-                    </div>
-                </form>
+                            <button id="clear" onclick="clearForm()">Clear All</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </section>
         <footer>
-              <div class="footerdiv">
+            <div class="footerdiv">
+                <div class="footerFlex">
+
+                    <div class="leftFotter">By Aaditya Bhatt</div>
+
+                    <div class="middleFotter">
+                        <a href="https://www.facebook.com/aaditya.bhatt.1650"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/aaditya.bhatt.1650/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://x.com/Aaditya_Bhatt51"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/aaditya-bhatt-692b162a3/"><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="rightFotter">
+                        <p>I’m Aaditya Prasad Bhatt, a Software Engineering student passionate about building creative
+                            tech solutions. I’m also a province-level chess player and portrait artist.</p>
+                    </div>
+                </div>
                 <p id="copyright"><a href="">Copyright&#169;</a> Aaditya Bhatt</p>
-              </div>
+            </div>
         </footer>
     </div>
 </body>
@@ -165,15 +186,15 @@
     }
 </script>
 <script>
-    function shownavpart1(){
-        const navpart1 =  document.querySelector('.navpart1');
+    function shownavpart1() {
+        const navpart1 = document.querySelector('.navpart1');
         navpart1.style.display = 'flex';
     }
-    function hidenavbar(){
-        const navpart1 =  document.querySelector('.navpart1');
+    function hidenavbar() {
+        const navpart1 = document.querySelector('.navpart1');
         navpart1.style.display = 'none';
     }
-    
+
 </script>
 
 </html>

@@ -1,22 +1,27 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
-html, body{
+
+html,
+body {
     height: 100%;
     width: 100%;
 }
-#main{
+
+#main {
     width: 100%;
     height: 100%;
-    position:relative;
+    position: relative;
 }
-.nav{
-    background-color:#F5F5F5;
+
+.nav {
+    background-color: #F5F5F5;
     height: 70px;
     width: 100%;
     display: flex;
@@ -29,57 +34,70 @@ html, body{
     top: 0;
     z-index: 1000;
 }
-.nav-part2{
+
+.nav-part2 {
     display: flex;
     gap: 4vw;
 }
-.nav h1{
+
+.nav h1 {
     font-size: 2vw;
     color: rgb(28, 159, 153);
 }
-.nav-part2 li{
+
+.nav-part2 li {
     list-style: none;
 }
-.nav-part2 li a{
+
+.nav-part2 li a {
     text-decoration: none;
     color: black;
     font-size: 1.2vw;
     font-weight: 700;
 }
-.nav-part2 li a:hover{
+
+.nav-part2 li a:hover {
     color: rgb(95, 95, 95);
 }
-.nav-part2 i{
+
+.nav-part2 i {
     display: none;
 }
-.content{
+
+.content {
     padding-top: 70px;
     background-color: #F5F5F5;
     height: 100%;
     width: 100%;
     display: flex;
 }
-.left{
+
+.left {
     height: 100%;
     width: 50%;
     padding: 15vw 0 0 15vw;
 }
-.right{
+
+.right {
     height: 100%;
     width: 50%;
 }
-.left h1{
+
+.left h1 {
     font-size: 3.5vw;
 }
-.left p{
+
+.left p {
     font-size: 1.5vw;
     font-weight: 400;
     color: rgb(73, 73, 73);
 }
-.left #element{
+
+.left #element {
     color: lightseagreen;
 }
-#homeimg{
+
+#homeimg {
     height: 80%;
     width: 60%;
     padding: 9vh 0 0vh 10vw;
@@ -88,12 +106,14 @@ html, body{
     transition: transform 0.5s ease;
 
 }
-#homeimg:hover{
+
+#homeimg:hover {
     transform: scale(1.1);
     box-shadow: 7px 15px 8px rgba(0, 0, 0, 0.25);
 
 }
-#homebtn{
+
+#homebtn {
     position: relative;
     height: 5vh;
     width: 15vh;
@@ -105,26 +125,30 @@ html, body{
     cursor: pointer;
     box-shadow: 2px 5px 3px rgba(0, 0, 0, 0.25);
     z-index: 1;
-    transition: transform 0.3s  ease;
+    transition: transform 0.3s ease;
 
 }
-#homebtn:hover{
+
+#homebtn:hover {
     background-color: lightseagreen;
     transform: scale(1.1);
     color: white;
     border: none;
     box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.25);
 }
-#lines{
+
+#lines {
     margin-left: 10vh;
     width: 90%;
     height: 0.5vh;
     background-color: lightseagreen;
 }
-br{
+
+br {
     background-color: #F5F5F5;
 }
-.aboutme{
+
+.aboutme {
     display: flex;
     position: relative;
     justify-content: space-evenly;
@@ -132,7 +156,8 @@ br{
     height: 90vh;
     background-color: #F5F5F5;
 }
-#leaf{
+
+#leaf {
     margin-bottom: 15px;
     font-size: 30px;
     color: #009688;
@@ -141,24 +166,27 @@ br{
     z-index: 1;
     display: inline-block;
 }
-#leaf::after{
+
+#leaf::after {
     content: '';
     width: 50px;
     height: 35px;
-    background: linear-gradient(#019587,#fff);
+    background: linear-gradient(#019587, #fff);
     position: absolute;
     top: -10;
     left: 0;
     z-index: -1;
     transform: rotate(0deg);
     border-top-left-radius: 35px;
-    border-bottom-right-radius:35px;
+    border-bottom-right-radius: 35px;
 }
-#leafdiv{
+
+#leafdiv {
     padding: 0vw 43vw;
     background-color: #F5F5F5;
 }
-.discription{
+
+.discription {
     width: 40%;
     height: 100%;
     padding: 25vh 2vh;
@@ -166,29 +194,34 @@ br{
     font-weight: 400;
     margin: 2vh 0;
 }
-.dis{
+
+.dis {
     border: black solid 1px;
     box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     padding: 2vh;
 }
-.img{
+
+.img {
     width: 40%;
     height: 100%;
-    padding: 10vh  0 0 5vh;
+    padding: 10vh 0 0 5vh;
 
 }
-.img #infoimg{
+
+.img #infoimg {
     height: 92%;
     padding: 0 0 3vw 1vw;
     border-radius: 80%;
     box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.25);
     transition: transform 0.3s ease;
 }
-.img #infoimg:hover{
+
+.img #infoimg:hover {
     transform: scale(1.1);
 }
-#projects{
+
+#projects {
     background-color: #F5F5F5;
     display: flex;
     position: relative;
@@ -196,16 +229,19 @@ br{
     height: 100%;
     width: 100%;
 }
-.projectimg{
+
+.projectimg {
     width: 40%;
     height: 100%;
     padding: 38vh 0 0 15vh;
 }
-.projectdiscription{
+
+.projectdiscription {
     width: 40%;
     padding: 39vh 2vh 0 2vh;
 }
-.projectdis{
+
+.projectdis {
     padding: 3vh;
     border: black 1px solid;
     border-radius: 20px;
@@ -215,18 +251,21 @@ br{
     font-weight: 500;
     height: 60%;
 }
-#noteswift{
+
+#noteswift {
     height: 50%;
     box-shadow: 2px 5px 3px rgba(0, 0, 0, 0.25);
     transition: transform 0.3s ease;
     border-radius: 200px;
 }
-#noteswift:hover{
+
+#noteswift:hover {
     transform: scale(1.2);
     box-shadow: 7px 15px 8px rgba(0, 0, 0, 0.25);
 
 }
-#noteswiftbtn{
+
+#noteswiftbtn {
     position: absolute;
     height: 4.5vh;
     width: 10vh;
@@ -235,19 +274,22 @@ br{
     transition: transform 0.3s ease;
     box-shadow: 2px 5px 2px rgba(0, 0, 0, 0.25);
 }
-#noteswiftbtn:hover{
+
+#noteswiftbtn:hover {
     background-color: lightseagreen;
     color: white;
     transform: scale(1.1);
     border: none;
     box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.25);
 }
-#elements{
+
+#elements {
     color: rgb(3, 121, 115);
     font-weight: 600;
     font-size: 3.5vh;
 }
-.drawingbox{
+
+.drawingbox {
     display: flex;
     position: relative;
     justify-content: space-evenly;
@@ -256,34 +298,41 @@ br{
     padding: 10vh 10vh;
     background-color: #F5F5F5
 }
-.img1{
+
+.img1 {
     height: 60vh;
     width: 30%;
     text-align: center;
     font-size: 3.5vh;
 }
-.img2{
+
+.img2 {
     height: 60vh;
     width: 30%;
     text-align: center;
     font-size: 3.5vh;
 }
-.img3{
+
+.img3 {
     height: 60vh;
-    width: 30%; 
+    width: 30%;
     text-align: center;
     font-size: 3.5vh;
-} 
-#bhuwan{
+}
+
+#bhuwan {
     height: 100%;
 }
-#darsan{
+
+#darsan {
     height: 100%;
 }
-#oldman{
+
+#oldman {
     height: 100%;
 }
-#drawingbtn{
+
+#drawingbtn {
     align-items: center;
     margin: 5vh 20vh;
     position: absolute;
@@ -295,14 +344,16 @@ br{
     transition: transform 0.3s ease;
     box-shadow: 2px 5px 2px rgba(0, 0, 0, 0.25);
 }
-#drawingbtn:hover{
+
+#drawingbtn:hover {
     background-color: lightseagreen;
     color: white;
     transform: scale(1.1);
     border: none;
     box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.25);
 }
-.container{
+
+.container {
     height: 100vh;
     width: 100%;
     display: flex;
@@ -311,18 +362,21 @@ br{
     position: relative;
     justify-content: space-evenly;
 }
-.socialmedia{
+
+.socialmedia {
     background-color: #F5F5F5;
     height: 100%;
     width: 40%;
     padding: 30vh 5vh;
 }
-.message{
+
+.message {
     background-color: #F5F5F5;
     height: 100%;
     width: 40%;
 }
-.iconss{
+
+.iconss {
     padding: 8vh 10vh;
     text-align: center;
     height: 40vh;
@@ -332,41 +386,48 @@ br{
     transition: transform 0.3s ease-in;
     box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.25);
 }
-.iconss a{
+
+.iconss a {
     color: black;
     text-decoration: none;
 }
-.iconss i{
+
+.iconss i {
     margin: 2vh 2vh;
     color: black;
 }
-.iconss i:hover{
+
+.iconss i:hover {
     color: rgb(30, 30, 30);
     transform: scale(1.2);
 }
-.message{
+
+.message {
     height: 100%;
-     padding: 27vh 5vh 0 5vh;
+    padding: 27vh 5vh 0 5vh;
 }
-.messagebox{
+
+.messagebox {
     display: flex;
     flex-direction: column;
-    border: black 1px  solid;
+    border: black 1px solid;
     padding: 5vh 3vh;
     height: 70%;
     border-radius: 20px;
     box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.25);
 }
-#area{
+
+#area {
     height: 5vh;
     color: black;
     border-radius: 5px;
     margin: 1.5vh 0;
     border: black 1px solid;
     padding-left: 10px;
-    text-transform:capitalize;
+    text-transform: capitalize;
 }
-#email{
+
+#email {
     text-transform: lowercase;
     height: 5vh;
     color: black;
@@ -375,16 +436,18 @@ br{
     border: black 1px solid;
     padding-left: 10px;
 }
-#text{
+
+#text {
     height: 20vh;
     border-radius: 5px;
     margin: 1.5vh 0;
     border: black 1px solid;
     padding-left: 10px;
     font-size: 2.5vh;
-    text-transform:capitalize;
+    text-transform: capitalize;
 }
-#submit{
+
+#submit {
     height: 5vh;
     width: 15vh;
     margin: 2vh 0;
@@ -393,13 +456,15 @@ br{
     transition: transform 0.3s ease;
     font-size: 2vh;
 }
-#submit:hover{
+
+#submit:hover {
     transform: scale(1.1);
     background: lightseagreen;
     color: white;
     border: none;
 }
-#clear{
+
+#clear {
     font-size: 2vh;
     height: 5vh;
     width: 15vh;
@@ -408,16 +473,19 @@ br{
     transition: transform 0.3s ease;
 
 }
-#clear:hover{
+
+#clear:hover {
     transform: scale(1.1);
     background: lightseagreen;
     color: white;
     border: none;
 }
-#emailme:hover{
+
+#emailme:hover {
     color: rgb(65, 65, 65);
 }
-footer{
+
+footer {
     align-items: center;
     height: 10%;
     width: 100%;
@@ -425,12 +493,14 @@ footer{
     background-color: rgb(193, 192, 192);
     padding-top: 3vh;
 }
-#copyright{
+
+#copyright {
     color: rgb(0, 0, 0);
     font-size: 3vh;
 }
+
 /* this is resposive navbar */
-.navpart1{
+.navpart1 {
     padding-top: 3vh;
     position: fixed;
     top: 0;
@@ -442,24 +512,57 @@ footer{
     backdrop-filter: blur(20px);
     display: none;
 }
-.navpart1 li{
+
+.navpart1 li {
     width: 100%;
     list-style: none;
     padding: 3vh 2.5vh;
 }
-.navpart1 li a{
+
+.navpart1 li a {
     text-decoration: none;
     color: black;
     font-size: 2vh;
 }
-.navpart1 li a i{
+
+.navpart1 li a i {
     color: black;
 }
-.navpart1 li a svg{
+
+.navpart1 li a svg {
     background-color: rgb(92, 92, 92);
     border-radius: 50px;
 }
 
+
+.footerFlex {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1vh, 2vw;
+    background-color: rgb(193, 192, 192);
+
+}
+
+.leftFotter {
+    width: 30vw;
+    font-size: 1.5rem;
+    font-weight: 600;
+
+}
+
+.middleFotter {
+    width: 30vw;
+}
+
+.middleFotter a {
+    margin: 0 1.2rem;
+    color: black;
+    font-size: 1.3rem;
+}
+
+.rightFotter {
+    width: 30vw;
+}
 
 /* this is last line */
 
@@ -471,195 +574,264 @@ footer{
 
 
 
-@media (max-width:600px){
-    .nav{
-       color: white;
-       padding: 0 5vw;
-       height: 60px;
+@media (max-width:600px) {
+    .nav {
+        color: white;
+        padding: 0 5vw;
+        height: 60px;
     }
-    .nav h1{
-           font-size: 6vw;
+
+    .nav h1 {
+        font-size: 6vw;
     }
-    .nav-part2 li a{
+
+    .nav-part2 li a {
         display: none;
     }
-    .nav-part2 i{
+
+    .nav-part2 i {
         font-size: 5vw;
         font-weight: 800;
         display: block;
         color: black;
     }
-    .content{
+
+    .content {
         height: calc(100% - 60px);
         flex-direction: column;
         margin-top: 60px;
     }
-    .left{
+
+    .left {
         order: 2;
         width: 100%;
         height: 40%;
     }
-    .left  h1{
+
+    .left h1 {
         font-size: 8vw;
     }
-    .left p{
+
+    .left p {
         font-size: 4vw;
     }
-    .right{
+
+    .right {
         order: 1;
         height: 60%;
         width: 100%;
         text-align: center;
 
     }
-    #homebtn{
+
+    #homebtn {
         height: 4vh;
         width: 26vw;
         border: rgb(56, 56, 56) solid 1px;
-        border-radius:10px;
+        border-radius: 10px;
         font-size: 2vh;
     }
-    #homeimg{
+
+    #homeimg {
         height: 100%;
         width: 280px;
         align-items: center;
     }
-    .aboutme{
+
+    .aboutme {
         flex-direction: column;
         height: 100%;
         width: 100%
     }
-    .discription{
+
+    .discription {
         order: 2;
         width: 100%;
         font-size: 1.5vh;
         padding: 1.5vh 2vh;
     }
-    .img{
+
+    .img {
         padding: 0 0 0 1.5vh;
         order: 1;
         width: 100%;
     }
-    .img #infoimg{
+
+    .img #infoimg {
         height: 100%;
         width: 280px;
     }
-    #leafdiv{
+
+    #leafdiv {
         text-align: center;
         width: 100%;
         padding: 0 4vh;
     }
-    #lines{
+
+    #lines {
         display: none;
     }
-    br{
+
+    br {
         display: none;
     }
-    #projects{
+
+    #projects {
         flex-direction: column;
         height: 50%;
         width: 100%;
         margin-bottom: 2vh;
     }
-    .projectimg{
+
+    .projectimg {
         width: 100%;
         padding: 5vh 0 0 5vh;
     }
-    #noteswift{
+
+    #noteswift {
         height: 80%;
         padding: 0;
     }
-    .projectdiscription{
+
+    .projectdiscription {
         width: 100%;
         height: 50%;
         padding: 2vh 3vh 1vh 3vh;
         background-color: #F5F5F5
     }
-    .projectdis{
+
+    .projectdis {
         font-size: 4vw;
-        height:168%;
+        height: 168%;
         background-color: #F5F5F5
     }
-    .drawingbox{
+
+    .drawingbox {
         margin-top: 40vh;
         flex-direction: column;
-        padding: 6vh 9vh  0 0;
+        padding: 6vh 9vh 0 0;
         background-color: #F5F5F5
     }
-    .img1{
+
+    .img1 {
         margin: 5vh;
         height: 40vh;
         width: 100%;
         font-size: 2vh;
         background-color: #F5F5F5;
     }
-    .img2{
+
+    .img2 {
         margin: 5vh;
         height: 40vh;
         width: 100%;
         font-size: 2vh;
         background-color: #F5F5F5;
     }
-    .img3{
+
+    .img3 {
         margin: 5vh;
         height: 40vh;
         width: 100%;
         font-size: 2vh;
         background-color: #F5F5F5;
     }
-    #drawingbtn{
+
+    #drawingbtn {
         margin: 5vh;
         height: 4vh;
     }
-    .container{
+
+    .container {
         flex-direction: column;
         width: 100%
     }
-    .socialmedia{
+
+    .socialmedia {
         padding: 3vh 5vh;
         width: 100%;
     }
-    .message{
+
+    .message {
         padding: 5vh 5vh;
         width: 100%;
     }
-    .iconss{
+
+    .iconss {
         font-size: 2vh;
         padding: 10vh 2vh;
     }
-    .iconss i{
+
+    .iconss i {
         margin: 2vw 1vh;
         font-size: 2.5vh;
     }
-    #area{
+
+    #area {
         margin: 1vw 0;
     }
-    #email{
+
+    #email {
         margin: 1vw 0;
     }
-    #text{
+
+    #text {
         font-size: 1.6vh;
         margin: 1vw 0;
     }
-    #submit{
+
+    #submit {
         margin: 1vh 0;
         font-size: 3.2vw;
         width: 19vw;
     }
-    #clear{
+
+    #clear {
         font-size: 3.2vw;
         width: 19vw;
     }
-    footer{
+
+    footer {
         background-color: rgb(193, 192, 192);
         margin-top: 6vh;
-        padding: 7vh 0 0 0 ;
+        padding: 7vh 0 0 0;
         height: 10vh;
         width: 100%;
     }
-    #copyright{
+
+    #copyright {
         font-size: 1.5vh;
         color: black;
     }
-    
-};
+
+    .footerFlex {
+        flex-direction: column;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
+    .leftFotter {
+        width: 100vw;
+        font-size: 1.5rem;
+        font-weight: 600;
+
+    }
+
+    .middleFotter {
+        width: 100vw;
+    }
+
+    .middleFotter a {
+        margin: 0 1.2rem;
+        color: black;
+        font-size: 1.3rem;
+    }
+
+    .rightFotter {
+        width: 100vw;
+    }
+
+
+}
+
+;
